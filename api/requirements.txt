@@ -1,0 +1,5 @@
+obd
+uvicorn
+python-dotenv
+fastapi
+-r telemetric_system/requirements/base.txt

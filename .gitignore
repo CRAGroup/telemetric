@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+televenv/
+*.pyc
+
+# Python test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Alembic
+# (keep migration files, ignore only generated artifacts)
+
+# Static exports
+api/static/exports/
+
+# Backup env files
+*.env.backup.*
+
+# Test/debug scripts (local only)
+test-*.js
+test_*.py
+check-*.ps1
+check-*.sh
+debug-*.js
+assign-admin-role.js
+console-*.js
+create-test-*.js
+insert-*.js
+run-migration.js
+
+# SQLite test databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Sensitive env files (all levels)
+api/telemetric_system/.env
+api/telemetric_system/.env.backup.*
+api/.env
+
+# Batch/shell convenience scripts (local only)
+*.bat
+*.sh
+!api/telemetric_system/set.sh

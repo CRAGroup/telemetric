@@ -1,0 +1,1 @@
+"""CORS handling configuration.\n"""
